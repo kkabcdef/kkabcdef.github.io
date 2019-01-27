@@ -481,10 +481,47 @@
     
 
     
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+  <img id="wechat_subscriber_qcode" src="http://one.kkabc.top/?/%E5%9B%BE%E7%89%87/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.jpg" alt="ZERO wechat" style="width: 200px; max-width: 100%;">
+  <div>扫一扫上面的二维码可以关注我的公众号哦</div>
+</div>
+
+      </div>
+    
 
     
       
     
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>捐赠 赞赏 这里</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="http://one.kkabc.top/?/%E5%9B%BE%E7%89%87/%E5%BE%AE%E4%BF%A1.jpg" alt="ZERO 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="http://one.kkabc.top/?/%E5%9B%BE%E7%89%87/%E6%94%AF%E4%BB%98%E5%AE%9D.jpg" alt="ZERO 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
     
 
     
@@ -786,6 +823,9 @@
 
 
 
+  
+  
+
 
 
 
@@ -800,6 +840,12 @@
 
   
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/three/three.min.js"></script>
+
+  
+  <script src="/lib/three/canvas_sphere.min.js"></script>
 
 
   
